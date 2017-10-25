@@ -28,13 +28,13 @@ timezone: New Zealand
 author:
   name: Frank
   email:  wistreng@gmail.com
-  # facebook:  #your Facebook username
-  # twitter:  #your Twitter username
-  # github:  #your GitHub username
+  facebook:  wistreng
+  twitter:  wistreng
+  github:  wistreng
   # googleplus:  #your Google+ username
-  # weibo:  #your Weibo username
-  # douban:  #your Douban username
-  # linkedin:  #your Linkedin username
+  weibo:  wistreng
+  douban:  wistreng
+  linkedin:  Frank Zhang
 
 ## Comment system (Disqus) ##
 disqus:
