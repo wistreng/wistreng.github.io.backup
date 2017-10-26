@@ -1,10 +1,11 @@
 ---
 layout: post
-title: 佛教的见地与修道
-key: 20161012
-tags: Buddhism
+title: The view and path in Buddhism
+key: 20160102
+tags: Buddhism Philosophy
 picture_frame: shadow
 ---
+
 #第一章 见地
 > "见地"永远要依靠持有见地的人。见地是你所立足的那个平面，见地是你决定如何看待事物的标准。广义上来说，见地可分为两种：传统性的见地以及理论性的见地。
 <!--more-->
