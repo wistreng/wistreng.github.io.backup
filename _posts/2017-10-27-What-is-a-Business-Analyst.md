@@ -15,7 +15,7 @@ Being a business analyst is a bit like being an architect but instead of buildin
 
 ## What does it take to be a Business Analyst?
 
-![Business Analyst](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW63Co2G-YtL9mB51HWcI_1sqDo46fd5UppL6KYHu2lNAM643r "Business Analyst")
+![Business Analyst](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW63Co2G-YtL9mB51HWcI_1sqDo46fd5UppL6KYHu2lNAM643r "Business Analyst1")
 
 The business analyst role is often seen as a communication bridge between IT and the business stakeholders. Business analysts must be great verbal and written communicators, tactful diplomats, problem solvers, thinkers and analysers - with the ability to engage with stakeholders to understand and respond to their needs in rapidly changing business environments. This can often involve dealing with very senior stakeholders and can often involve challenging and questioning to ensure that value for money is achieved from IT developments.
 
@@ -27,7 +27,7 @@ Requiring straightforward automation of repetitive administrative tasks and conv
 
 Throughout the late 1980s and 1990s, organisations evolved their IT systems to take further advantage of computer technology - but many projects failed to deliver the desired benefits often because of a focus on delivering 'technology' at the expense of business needs. During this period, the role of the "Business Analyst" emerged requiring a deeper understanding of the business and the development of relationships with stakeholders at all levels. As business stakeholders became increasingly IT aware, the business analyst role evolved to support them in achieving their goals while constantly balancing conflicts between business needs and limited IT resources.
 
-## The Business Aanlyst has Evolved
+## The Business Analyst has Evolved
 
 Through the new millennium, increasing use of the internet placed even greater demands on IT departments which were increasingly outsourced or off-shored. Organisations themselves became increasingly globalised and more complex as did their IT infrastructures, often containing hundreds (even thousands) of different systems. **Agile** emerged as a more flexible way of developing and updating IT systems in rapidly changing business environments. During this period, 'Business Analyst' became a **catch-all** job title for many project and business change roles. Different views emerged of the business analyst role, from being a strategic thinker driving change within the organisation, through acting as a process improvement expert and being responsible for eliciting and documenting requirements for IT systems.
 
