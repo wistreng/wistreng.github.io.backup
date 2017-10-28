@@ -13,7 +13,7 @@ Given a set of n samples $$x={x\_1,\ldots,x\_n}$$
 2. **Geometric mean**
 $$x=^n\sqrt {\prod_{i=1}^N x_i}$$
 3. **Root mean square average**
-$$x_{rms}=\sqrt  {{1\over N}\sum_{i=1}^N x_i^2}$$
+$$x_{rms}=\sqrt {{1\over N}\sum_{i=1}^N x_i^2}$$
 4. **harmonic mean**
 $$x = {N\over \sum_{i=1}^N {1\over x_i}}$$
 5. **Weighted average**
