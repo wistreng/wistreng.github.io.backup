@@ -6,7 +6,7 @@ tags: SSAS OLAP PROPERTIES
 picture_frame: shadow
 ---
 
-*After 'Playing' SSAS for a while, I found OLAP is also focus on the dimension processing, and all attributes have the same properties. It is really time-consuming to search information for each particular property every time, so instead of searching everywhere, this post try to put it all under one roof.*
+*After 'Playing' SSAS for a while, I found that OLAP is also focus on the dimension processing, and all attributes have the same properties. It is really time-consuming to search information for each particular property every time, so instead of searching everywhere, this post try to put it all under one roof.*
 <!--more-->
 
 ### TERMS

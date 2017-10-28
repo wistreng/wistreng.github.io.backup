@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why to Use Tabular?
+title: WHY USE TABULAR?
 key: 20171002
 tags: BI SSAS Tabular
 picture_frame: shadow

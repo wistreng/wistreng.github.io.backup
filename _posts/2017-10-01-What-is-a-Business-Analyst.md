@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is a business analyst
+title: What is a Business Analyst
 key: 20171001
 tags: BA Agile
 picture_frame: shadow
