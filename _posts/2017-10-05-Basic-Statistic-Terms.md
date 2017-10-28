@@ -5,8 +5,8 @@ key: 20171005
 tags: Statistic Mathematic
 ---
 
-Given a set of n samples $$x={x_1,\ldots,x_n}$$
+Given a set of n samples $$x={x\_1,\ldots,x\_n}$$
 
 1. **Arithmetic mean value**
-    $$\bar x={\sum x_i \over N}$$
+    $$\bar x = {\sum x\_i \over N}$$
 <!--more-->
