@@ -4,7 +4,7 @@ title: Basic Statistic Terms
 key: 20171005
 tags: Statistic Mathematic
 ---
-
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
 # 机器学习-如何在github上写数学公式
 
 居中格式: $$xxx$$
