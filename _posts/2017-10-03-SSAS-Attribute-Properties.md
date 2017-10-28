@@ -73,7 +73,7 @@ picture_frame: shadow
 1. **CustomRollupColumn** Specify a column which will contain the custom rollup formula(MDX expressions).
 2. **CustomRollupPropertiesColumn** Used to contain the properties of a custom rollup column. [learn more about the above two properties](https://technet.microsoft.com/en-us/library/ms174474(v=sql.105).aspx).
 3. **KeyColumns** Not the surrogate key for dim, this is a composite key which identifies the relationship between attributes.
-    ![KeyColumns](https://blog.xlcubed.com/wp-content/uploads/2011/06/ParentChild4-300x131.png"Attribute relationship")
+    ![KeyColumns](http://www.sqlskills.com/blogs/stacia/content/binary/productattrrel_3.gif"Attribute relationship")
 4. **NameColumn** A user-friendly name of the attribute member. In the parent-child scenario, use the NameColume for Id instead of the ParentId.
 5. **ValueColumn** This property identifies the column that provides the value of the attribute.
 
