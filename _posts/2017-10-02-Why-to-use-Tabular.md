@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Why to Use Tabular?
-key: 20171026
+key: 20171002
 tags: BI SSAS Tabular
 picture_frame: shadow
 ---
 
-> Analysis services in SQL Server 2014 can be either deployed in multi-dimensional mode or tabular mode or power pivot for SharePoint as well. Tabular mode is a new enhancement in SQL Server 2014 analysis service database structure. It is a columnar database capable of incredible performance and compression ratio. At this point, there is a lot of confusion in users on why to use the tabular model when we already have multidimensional model. So, let’s discuss these points first before creating a tabular model project. Let us learn about the SSAS Tabular Data Model.
-<!--more-->
+*SSAS can be either deployed in multi-dimensional mode or tabular mode or power pivot for SharePoint as well. Tabular mode is a new enhancement in SQL Server 2014 analysis service database structure. <!--more--> It is a columnar database capable of incredible performance and compression ratio. At this point, there is a lot of confusion in users on why to use the tabular model when we already have multidimensional model. So, let’s discuss these points first before creating a tabular model project. Let us learn about the SSAS Tabular Data Model.*
+
 
 ## Why to Use:
 
@@ -21,6 +21,6 @@ picture_frame: shadow
 
 1. When the source is based on dimensional modeling and has complex relationships with **very large volume** of data.
 2. No support for writing back or **parent-child hierarchy**
-3. When you want to do complex calculations, scoping and named sets
+3. When you want to do **complex calculations**, scoping and named sets
 
 

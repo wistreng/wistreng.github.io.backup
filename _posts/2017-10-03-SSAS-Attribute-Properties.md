@@ -1,8 +1,8 @@
 ---
 layout: post
-title: ATTRIBUTE PROPERTIES
-key: 20171026
-tags: BI SSAS OLAP PROPERTIES
+title: SSAS ATTRIBUTE PROPERTIES
+key: 20171003
+tags: SSAS OLAP PROPERTIES
 picture_frame: shadow
 ---
 
@@ -46,7 +46,6 @@ picture_frame: shadow
     > *If the order of the members do not matter, setting this property to False for attributes where the attribute hierarchy is enabled or high cardinality attributes can significantly increase the processing performance.*
 2. **GroupingBehavior** Give a **hint** to the client application whether to encourage or discourage users to group on this attribute.
 3. **InstanceSelection** Give a **hint** to the client application’s UI on the recommended means of selection of a member from the attribute.
-
     - None - (Default) no selection used.
     - DropDown - Appropriate for situations where the number of items is small enough to display within a dropdown list.
     - List - Appropriate for situations where the number of items is too large for a dropdown list, but not large enough to require filtering.
@@ -59,17 +58,14 @@ picture_frame: shadow
 
 1. **MembersWithData** The visibility [NonLeafDataHidden] or [NonLeafDataVisible] of non-leaf members that also have data. [Working with Attributes in Parent-Child Hierarchies](https://docs.microsoft.com/en-us/sql/analysis-services/multidimensional-models/parent-child-dimension-attributes).
 2. **MembersWithDataCaption** Set the value *(desc) to distinguish the name of the member which has different role. 
-
-    'e.g., Jason - Jason(leaf member)'
+    `e.g., Jason - Jason(As a leaf member)`
 3. **NamingTemplate** This property specifies how levels in a particular parent-child hierarchy would be named. 
-
-    'CEO -> General Manager -> Manager -> Employer'
+    `CEO -> General Manager -> Manager -> Employee`
 4. **RootMemberIf** The four selection options include the following:
-
-- ParentIsBlankSelfOrMissing - (Default) Only members that meet one or more of the conditions described for ParentIsBlank, ParentIsSelf, or ParentIsMissing are treated as root members.
-- ParentIsBlank - Only members with a null, a zero, or an empty string in the key column or columns are treated as root members.
-- ParentIsSelf - Only members with themselves as parents are treated as root members.
-- ParentIsMissing - Only members with parents that cannot be found are treated as root members.
+    - ParentIsBlankSelfOrMissing - (Default) Only members that meet one or more of the conditions described for ParentIsBlank, ParentIsSelf, or ParentIsMissing are treated as root members.
+    - ParentIsBlank - Only members with a null, a zero, or an empty string in the key column or columns are treated as root members.
+    - ParentIsSelf - Only members with themselves as parents are treated as root members.
+    - ParentIsMissing - Only members with parents that cannot be found are treated as root members.
 5. **UnaryOperatorColumn** 
 
 ### SOURCE PROPERTIES
@@ -77,8 +73,7 @@ picture_frame: shadow
 1. **CustomRollupColumn** Specify a column which will contain the custom rollup formula(MDX expressions).
 2. **CustomRollupPropertiesColumn** Used to contain the properties of a custom rollup column. [learn more about the above two properties](https://technet.microsoft.com/en-us/library/ms174474(v=sql.105).aspx).
 3. **KeyColumns** Not the surrogate key for dim, this is a composite key which identifies the relationship between attributes.
-
-    ![KeyColumns](a"relationship")
-4. **NameColumn** A user-friendly name of the attribute member
+    ![KeyColumns](https://blog.xlcubed.com/wp-content/uploads/2011/06/ParentChild4-300x131.png"Attribute relationship")
+4. **NameColumn** A user-friendly name of the attribute member. In the parent-child scenario, use the NameColume for Id instead of the ParentId.
 5. **ValueColumn** This property identifies the column that provides the value of the attribute.
 
