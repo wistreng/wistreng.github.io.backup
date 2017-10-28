@@ -11,6 +11,6 @@ picture_frame: shadow
 
 The infographic explores what the strengths of R are over Python and vice versa, and aims to provide a basic comparison between these two programming languages from a data science and statistics perspective.
 
-![Data Science Wars: R vs Python](http://blog.datacamp.com/wp-content/uploads/2015/05/R-vs-Python-216-2.png){:height="50%" width="50%"}
+![Data Science Wars: R vs Python](http://blog.datacamp.com/wp-content/uploads/2015/05/R-vs-Python-216-2.png){:height="100%" width="100%"}
 
 *Repost from DataCamp*
