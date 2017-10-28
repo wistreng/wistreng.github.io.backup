@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Science Wars: R vs Python
+title: Data Science Wars R vs Python
 key: 20171004
 tags: R Python
 picture_frame: shadow
