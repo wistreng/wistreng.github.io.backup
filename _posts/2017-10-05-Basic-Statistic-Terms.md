@@ -47,6 +47,6 @@ When it comes to n>2 dimension, the data set need to calculate $$\frac{n!}{(n-2)
 
 $$C_{n\times n}=(c_{i,j},c_{i,j}=cov(Dim_{i},Dim_{j}))$$
 
-For example, a data set have $$\{x,y,z\}$$ three dimension, its cov matrix is:
+For example, a data set have $$\{x,y,z,s,t\}$$ five dimension, its cov matrix is:
 
-![Cov Matrix](http://7jptbo.com1.z0.glb.clouddn.com/images/covariance-1.jpg"Cov Matrix")
+![Cov Matrix](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEDiwzPOQZMBCYzvqFV_GH66KVbZ_uUao29soLhS1KRdASl0Ll"Cov Matrix")
