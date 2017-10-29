@@ -18,4 +18,4 @@ $$x=^n\sqrt {\prod_{i=1}^N x_i}$$
 
 3. **Root mean square average**
 
-$$x_{rms}=\sqrt {{1\over N}\sum_{i=1}^N x_i^2}$$
+$$x_{rms}=\sqrt\begin{1\over N}\sum_{i=1}^N x_i^2\end$$
