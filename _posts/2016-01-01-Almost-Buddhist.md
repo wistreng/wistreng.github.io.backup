@@ -2,7 +2,7 @@
 layout: post
 title: Almost Buddhist
 key: 20160101
-tags: Buddhism Philosophy
+tags: 
 picture_frame: shadow
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: The view and path in Buddhism
 key: 20160102
-tags: Buddhism Philosophy
+tags: 
 picture_frame: shadow
 ---
 
