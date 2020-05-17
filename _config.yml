@@ -73,3 +73,6 @@ server_url: "0.0.0.0"
 
 ## Development ##
 isdebug: false
+
+
+theme: dark
