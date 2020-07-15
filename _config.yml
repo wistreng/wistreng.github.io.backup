@@ -28,12 +28,12 @@ timezone: New Zealand
 author:
   name: Frank
   email:  wistreng@gmail.com
-  facebook:  wistreng
-  twitter:  wistreng
+  # facebook:  wistreng
+  # twitter:  wistreng
   github:  wistreng
   # googleplus:  #your Google+ username
-  weibo:  wistreng
-  douban:  wistreng
+  # weibo:  wistreng
+  # douban:  wistreng
   linkedin:  Frank Zhang
 
 ## Comment system (Disqus) ##
@@ -50,7 +50,7 @@ leancloud:
   # app_class:  #LeanCloud App class
 
 ## Paginate ##
-paginate: 5
+paginate: 10
 paginate_path: /blog/page:num
 
 ## Post excerpts ##
