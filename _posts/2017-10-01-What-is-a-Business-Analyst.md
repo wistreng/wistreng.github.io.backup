@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is a Business Analyst
+title: What Is A BA Role
 key: 20171001
 tags: BA Agile
 picture_frame: shadow
