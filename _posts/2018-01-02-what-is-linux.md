@@ -2,7 +2,7 @@
 layout: post
 title: What is Linux 
 key: 20180101
-tags: Linux, 'Linux Chapter One'
+tags: Linux, "Linux Chapter One"
 picture_frame: shadow
 ---
 

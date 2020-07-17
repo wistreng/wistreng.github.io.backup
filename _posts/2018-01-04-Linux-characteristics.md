@@ -5,7 +5,7 @@ key: 20180104
 tags: Linux
 picture_frame: shadow
 ---
-###The characteristics of Linux
+### The characteristics of Linux
 
 So what are the special functions of this system? To put it simply:
 
@@ -44,7 +44,7 @@ This is what makes Linux one of the most popular operating systems of the last f
 
 >That is because Linux has 1. Low hardware demand, 2. Open architecture, 3. Strong system stability and confidentiality, and 4. Completely free, so some so-called "anti-Microsoft alliance" programming masters constantly develop new software! To compete with Microsoft! Bird's diagram
 
-###Linux's strengths and weaknesses
+### Linux's strengths and weaknesses
 
 
 So why use Linux as our host system? This is because Linux has the following advantages:
@@ -115,7 +115,7 @@ If you can teach children to use free software in elementary school, they will n
 
 To be honest, most of these shortcomings are not Linux per se, but rather policy and business considerations that are the biggest bugbears. But Linux, like any other operating system, is just a tool! I hope you have fun learning the essence of Linux! ^_^
 
-###About authorization
+### About authorization
 
 
 Now there are a lot of software on the market, some free software, some patent software. Some patent software free, some free software to pay ~ ah! Good bother! How do you tell these things apart? In fact, bird brother is not a lawyer, for the law is not very understand, but there are a few authorization model can talk about ~
