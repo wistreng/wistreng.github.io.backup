@@ -1,19 +1,20 @@
 ---
 layout: post
-title: 8.Linux disk and file system management
-key: 20180105
+title: File Management System (Linux 2.3.1)
+key: 20180201
 tags: Linux
 picture_frame: shadow
 ---
-
-# Know the EXT2 file system
-
 
 *Linux's most traditional disk filesystem USES EXT2. So to understand the file system, you have to start by knowing EXT2! The file system is created on the hard disk, so we need to understand the physical components of the hard disk which was covered in Chapter 0, and the partitioning of the disk is covered in Chapter 3, so these two sections will be reviewed quickly below. The focus is on **inodes**, **blocks**, **superblocks**, and other basic parts of file systems.*
 
 <!--more-->
 
-## Hard disk composition with a review of segmentation
+
+## EXT2 - Linux second extended file system (ext2fs)
+
+
+### Hard disk composition and partition
 
 
 First of all, explain the physical composition of the disk:
@@ -54,7 +55,7 @@ Finally, let's explain the definition of segmentation in Chapter 3:
 - The number of logical partitions varies depending on the operating system. In Linux, IDE drives have up to 59 logical partitions (5 through 63) and SATA drives 11 logical partitions (5 through 15).
 
 
-## File system features
+### File system features
 
 
 We all know that a disk partition needs to be formatted before the operating system can use the partition slot. Why do you need formatting? This is because file properties/permissions are not the same for each operating system, and in order to store the data needed for these files, the split slot needs to be formatted into a "filesystem" that the operating system can leverage.

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Linux Bash Variables
-key: 20180301
+title: Variables (Linux 3.2.2)
+key: 20180322
 tags: Linux bash
 picture_frame: shadow
 ---
@@ -10,13 +10,15 @@ picture_frame: shadow
 
 <!--more-->
 
+
 ### Variable access
+
 
 Let's show you the contents of the variable. You can use the `echo` command to access variables, but variables must be preceded by `$` or `${variable}`. For example,
 
 
 ```
-gcpvm@instance-1:~$ echo $PATH
+Frank@cavalry:~$ echo $PATH
 
 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 ```
