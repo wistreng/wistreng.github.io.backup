@@ -6,12 +6,12 @@ tags: Linux bash
 picture_frame: shadow
 ---
 
-*What are variables? Simply put, a particular string represents something that is not fixed. To give you an example of math that you'll learn in school, y = ax+b, where (y) on the left-hand side is the variable, and (ax+b) on the right-hand side is the variable. Note that the left side is unknown and the right side is known. To put it more simply, we can "substitute a simple word" for another data that is more complex or easily changed." What's the good of that? The biggest benefit is "convenience!" .*
+*What are variables? Simply put, a particular string represents something that is not fixed. To give you an example of math that you'll learn in school, y = ax+b, where (y) on the left-hand side is the variable, and (ax+b) on the right-hand side is the variable's expression. Note that the left side is unknown and the right side is known. To put it more simply, we can "substitute a simple word" for another data that is more complex or easily changed." What's the good of that? The biggest benefit is "convenience!" .*
 
 <!--more-->
 
 
-### Variable access
+## Variable access
 
 
 Let's show you the contents of the variable. You can use the `echo` command to access variables, but variables must be preceded by `$` or `${variable}`. For example,
@@ -36,63 +36,70 @@ Frank <== appears! Because this variable is already configured!
 ```
 
 
-### Variable assign rules
+## Variable assign rules
 
 
 The following examples show you how to assign a variable
 
 
-```
-Example 1: Configure a variable name with the content
+### Example 1: Configure a variable name with the content
 
+
+```
 [root@www ~] # 12name=Frank
 - bash: 12name=VBird: Command not found <== screen displays error! Because you can't start with a number!
-
 [root@www ~]# name= Frank <== error again! Because there is a space!
-
 [root@www ~]# name=Frank <==OK!
+```
 
 
-Example 2: If the variable is Frank's name, the variable contains a special symbol.
+### Example 2: The variable contains a special symbol.
+
+```
 [root@www ~]# name=Frank's name
 
 # single and double quotes must be paired, there is only one single quote in the above configuration, so when you press Enter, you can continue to enter variable content. This is not what we need!
-
-Remember, to recover after failure, press [CTRL] -C to end!
+# Remember, to recover after failure, press [CTRL] -C to end!
 
 [root@www ~]# name="Frank's name" <==OK!
 
-The command looks from left to right → quotes first are useful, so as shown above, single quotes will be invalid!
+# The command looks from left to right → quotes first are useful, so as shown above, single quotes will be invalid!
 
 [root@www ~]# name='Frank's name' <== failed!
 
-Since the first two single quotes are already paired, there will be an unpaired single quote after them! And so it failed!
+# Since the first two single quotes are already paired, there will be an unpaired single quote after them! And so it failed!
 
 [root@www ~]# name=Frank\'\ name <==OK!
 
-Using backslash (\) to skip special characters, such as single quotes and space keys, is also OK!
+# Using backslash (\) to skip special characters, such as single quotes and space keys, is also OK!
+
+```
 
 
-Example 3: I'm going to append `:/home/dmtsai/bin` to the `PATH` variable 
+### Example 3: I'm going to append `:/home/dmtsai/bin` to the `PATH` variable 
 
+```
 [root@www ~]# PATH=$PATH:/home/dmtsai/bin
 [root@www ~]# PATH="$PATH":/home/dmtsai/bin
 [root@www ~]# PATH=${PATH}:/home/dmtsai/bin
 
 All three of the above formats are OK in the PATH configuration! But the following example is not necessarily true!
+```
 
+### Example 4: By example 3, do I want to add "yes" to the content of variable `name`?
 
-Example 4: By example 3, do I want to add "yes" to the content of variable `name`?
-
+```
 [root@www ~]# name=$nameyes
 This expression tell system assign variable `nameyes` to vairable `name` though we have not configured the variable call "nameyes" yet! So, it should be done like this:
 
 [root@www ~]# name="$name"yes
 [root@www ~]# name=${name}yes <== I prefer this way!
+```
 
 
-Example 5: How do I make the name=VBird that I just configured work with the other shell?
+### Example 5: How do I make the name=VBird that I just configured work with the other shell?
 
+```
 [root@www ~]# name=Frank
 [root@www ~]# bash <== into a so-called subroutine
 [root@www ~]# echo $name <== subroutine: echo once again;
@@ -106,16 +113,20 @@ Frank <== Look! value appears!
 [root@www ~]# exit <== Leave this subroutine
 
 Command `export` will make a variable become Environment Variable, you can check with command `env` and there is the variable "name".
+```
 
 
-Example 6: How do I get to your current core module directory?
+### Example 6: How do I get to your current core module directory?
 
+```
 [root-@www ~]# cd /lib/modules/`uname-r`/kernel
 [root-@www ~]# cd /lib/modules/$(uname-r)/kernel
+```
 
 
-Example 7: Single quote and double quote
+### Example 7: Single quote and double quote
 
+```
 [root@www ~]# myname="$name is me"
 [root@www ~]# echo $myname
 Frank is me
@@ -130,7 +141,7 @@ Text between backticks `` is executed and replaced by the output of the command.
 ```
 
 
-### Environment variables
+## Environment variables
 
 
 Use `env` or `export` to check out current env variables, something like this:
